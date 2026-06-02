@@ -1,0 +1,17 @@
+
+//Kadane's Algorithm
+class Solution {
+    public int maxSubArray(int[] nums) {
+
+        int currSum = 0;
+        int maxSum = nums[0];
+        for( int num : nums){
+            currSum += num;
+            maxSum = (maxSum<currSum) ? currSum : maxSum;
+            if( currSum < 0){ //if currSum gets negative that violates Kadane's Algo as it says to ignore -ve sum
+                currSum=0;
+            }
+        }
+        return maxSum;
+    }
+}
