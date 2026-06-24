@@ -17,8 +17,8 @@ class Solution {
 
 
 // //OPTIMIZED APPROACH -- USING HASHMAP
-// Time Complexity = O(n²)
-// Space Complexity = O(1)
+// Time Complexity = O(N)+[O(1) for hashmap operation] ==> O(N)
+// Space Complexity = O(N)
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
