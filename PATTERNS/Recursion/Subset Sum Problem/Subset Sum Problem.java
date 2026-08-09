@@ -10,7 +10,9 @@ class Solution {
             return true;
         }
         
-        if(ind == arr.length || target < 0){
+	// index goes out of bound
+	// if the sum is negative no use of picking an going further
+        if(ind == arr.length || target < 0){ 
             return false;
         }
                 //PICK or //NOT PICK
