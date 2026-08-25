@@ -1,3 +1,7 @@
+// BACKTRACKING
+// TC - O(n*n!)
+// SC - O(n)
+
 class Solution {
 
     void solve(int[] nums, boolean[] used, List<Integer> ds, List<List<Integer>> res){
