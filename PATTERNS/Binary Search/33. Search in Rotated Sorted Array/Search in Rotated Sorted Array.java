@@ -29,8 +29,8 @@ class Solution {
 
         while(start <= end){
             int mid = start + (end-start)/2;
-            int prev = (mid+1) % n;
-            int next = (mid+n-1) % n;
+            int next = (mid+1) % n;
+            int prev = (mid+n-1) % n;
 
             //prev < target < next is the point of rotation in the sorted array
             if(nums[mid] <= nums[prev] && nums[mid] <= nums[next]){
