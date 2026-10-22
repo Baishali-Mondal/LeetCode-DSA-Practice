@@ -1,0 +1,44 @@
+# **Top View of Binary Tree**
+
+
+
+***Medium***
+
+
+
+You a binary tree, and your task is to return its top view. The top view of a binary tree is the set of nodes visible when the tree is viewed from the top.
+
+
+
+Return the nodes from the leftmost node to the rightmost node.
+
+If multiple nodes overlap at the same horizontal position, only the topmost (closest to the root) node is included in the view. 
+
+
+
+**Examples:**
+
+
+
+Input: root = \[1, 2, 3]
+
+Output: \[2, 1, 3]
+
+
+
+
+
+Input: root = \[10, 20, 30, 40, 60, 90, 100]
+
+Output: \[40, 20, 10, 30, 100]
+
+
+
+
+
+#### **Constraints:**
+
+
+
+* 1 ≤ size of binary tree, node.data ≤ 10^5
+
